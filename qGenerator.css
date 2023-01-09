@@ -1,0 +1,19 @@
+body{
+    font-family: Georgia;
+    letter-spacing: 2px;
+    padding: 20px;
+    font-size: 22px;
+    background-color: orange;
+    color: white;
+    text-shadow: 0 0 10px blue;
+}
+
+span{
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker{
+    50%{
+        opacity: 0;
+    }
+}
